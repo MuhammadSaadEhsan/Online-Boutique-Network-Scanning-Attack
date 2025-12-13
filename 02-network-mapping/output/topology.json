@@ -1,0 +1,113 @@
+{
+  "depends_on": {
+    "cartservice": [
+      "redis-cart"
+    ],
+    "checkoutservice": [
+      "currencyservice",
+      "productcatalogservice",
+      "shippingservice",
+      "emailservice",
+      "cartservice",
+      "paymentservice"
+    ],
+    "frontend": [
+      "currencyservice",
+      "recommendationservice",
+      "productcatalogservice",
+      "adservice",
+      "shippingservice",
+      "checkoutservice",
+      "cartservice"
+    ],
+    "loadgenerator": [
+      "frontend"
+    ],
+    "recommendationservice": [
+      "productcatalogservice"
+    ]
+  },
+  "depended_by": {
+    "redis-cart": [
+      "cartservice"
+    ],
+    "productcatalogservice": [
+      "recommendationservice",
+      "frontend",
+      "checkoutservice"
+    ],
+    "shippingservice": [
+      "frontend",
+      "checkoutservice"
+    ],
+    "paymentservice": [
+      "checkoutservice"
+    ],
+    "emailservice": [
+      "checkoutservice"
+    ],
+    "currencyservice": [
+      "frontend",
+      "checkoutservice"
+    ],
+    "cartservice": [
+      "frontend",
+      "checkoutservice"
+    ],
+    "recommendationservice": [
+      "frontend"
+    ],
+    "checkoutservice": [
+      "frontend"
+    ],
+    "adservice": [
+      "frontend"
+    ],
+    "frontend": [
+      "loadgenerator"
+    ]
+  },
+  "importance_score": {},
+  "justification": {
+    "frontend": [
+      "Depended on by 1 service(s): loadgenerator",
+      "Depends on 7 downstream service(s): adservice, cartservice, checkoutservice, currencyservice, productcatalogservice, recommendationservice, shippingservice"
+    ],
+    "currencyservice": [
+      "Depended on by 2 service(s): checkoutservice, frontend"
+    ],
+    "paymentservice": [
+      "Depended on by 1 service(s): checkoutservice"
+    ],
+    "recommendationservice": [
+      "Depended on by 1 service(s): frontend",
+      "Depends on 1 downstream service(s): productcatalogservice"
+    ],
+    "productcatalogservice": [
+      "Depended on by 3 service(s): checkoutservice, frontend, recommendationservice",
+      "Acts as shared network dependency (choke point)"
+    ],
+    "adservice": [
+      "Depended on by 1 service(s): frontend"
+    ],
+    "frontend-external": [],
+    "shippingservice": [
+      "Depended on by 2 service(s): checkoutservice, frontend"
+    ],
+    "redis-cart": [
+      "Depended on by 1 service(s): cartservice"
+    ],
+    "checkoutservice": [
+      "Depended on by 1 service(s): frontend",
+      "Depends on 6 downstream service(s): cartservice, currencyservice, emailservice, paymentservice, productcatalogservice, shippingservice"
+    ],
+    "emailservice": [
+      "Depended on by 1 service(s): checkoutservice"
+    ],
+    "cartservice": [
+      "Depended on by 2 service(s): checkoutservice, frontend",
+      "Depends on 1 downstream service(s): redis-cart"
+    ],
+    "kubernetes": []
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "adservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.107.171.61",
+    "ports": [
+      {
+        "port": 9555,
+        "targetPort": 9555,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "cartservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.107.242.253",
+    "ports": [
+      {
+        "port": 7070,
+        "targetPort": 7070,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "checkoutservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.105.102.255",
+    "ports": [
+      {
+        "port": 5050,
+        "targetPort": 5050,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "currencyservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.111.144.247",
+    "ports": [
+      {
+        "port": 7000,
+        "targetPort": 7000,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "emailservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.101.1.210",
+    "ports": [
+      {
+        "port": 5000,
+        "targetPort": 8080,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "frontend",
+    "type": "ClusterIP",
+    "clusterIP": "10.101.217.235",
+    "ports": [
+      {
+        "port": 80,
+        "targetPort": 8080,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "frontend-external",
+    "type": "LoadBalancer",
+    "clusterIP": "10.98.108.211",
+    "ports": [
+      {
+        "port": 80,
+        "targetPort": 8080,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "kubernetes",
+    "type": "ClusterIP",
+    "clusterIP": "10.96.0.1",
+    "ports": [
+      {
+        "port": 443,
+        "targetPort": 6443,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "paymentservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.109.25.188",
+    "ports": [
+      {
+        "port": 50051,
+        "targetPort": 50051,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "productcatalogservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.108.44.91",
+    "ports": [
+      {
+        "port": 3550,
+        "targetPort": 3550,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "recommendationservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.97.85.240",
+    "ports": [
+      {
+        "port": 8080,
+        "targetPort": 8080,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "redis-cart",
+    "type": "ClusterIP",
+    "clusterIP": "10.99.59.178",
+    "ports": [
+      {
+        "port": 6379,
+        "targetPort": 6379,
+        "protocol": "TCP"
+      }
+    ]
+  },
+  {
+    "name": "shippingservice",
+    "type": "ClusterIP",
+    "clusterIP": "10.96.159.24",
+    "ports": [
+      {
+        "port": 50051,
+        "targetPort": 50051,
+        "protocol": "TCP"
+      }
+    ]
+  }
+]

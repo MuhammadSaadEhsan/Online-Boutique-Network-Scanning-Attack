@@ -1,0 +1,15 @@
+{
+  "adservice": "RESOLVABLE",
+  "cartservice": "RESOLVABLE",
+  "checkoutservice": "RESOLVABLE",
+  "currencyservice": "RESOLVABLE",
+  "emailservice": "RESOLVABLE",
+  "frontend": "RESOLVABLE",
+  "frontend-external": "RESOLVABLE",
+  "kubernetes": "RESOLVABLE",
+  "paymentservice": "RESOLVABLE",
+  "productcatalogservice": "RESOLVABLE",
+  "recommendationservice": "RESOLVABLE",
+  "redis-cart": "RESOLVABLE",
+  "shippingservice": "RESOLVABLE"
+}

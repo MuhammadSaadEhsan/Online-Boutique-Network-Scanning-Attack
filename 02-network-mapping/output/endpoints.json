@@ -1,0 +1,80 @@
+[
+  {
+    "service": "adservice",
+    "backend_ips": [
+      "10.1.0.26"
+    ]
+  },
+  {
+    "service": "cartservice",
+    "backend_ips": [
+      "10.1.0.10"
+    ]
+  },
+  {
+    "service": "checkoutservice",
+    "backend_ips": [
+      "10.1.0.8"
+    ]
+  },
+  {
+    "service": "currencyservice",
+    "backend_ips": [
+      "10.1.0.7"
+    ]
+  },
+  {
+    "service": "emailservice",
+    "backend_ips": [
+      "10.1.0.12"
+    ]
+  },
+  {
+    "service": "frontend",
+    "backend_ips": [
+      "10.1.0.23"
+    ]
+  },
+  {
+    "service": "frontend-external",
+    "backend_ips": [
+      "10.1.0.23"
+    ]
+  },
+  {
+    "service": "kubernetes",
+    "backend_ips": [
+      "192.168.65.3"
+    ]
+  },
+  {
+    "service": "paymentservice",
+    "backend_ips": [
+      "10.1.0.14"
+    ]
+  },
+  {
+    "service": "productcatalogservice",
+    "backend_ips": [
+      "10.1.0.21"
+    ]
+  },
+  {
+    "service": "recommendationservice",
+    "backend_ips": [
+      "10.1.0.27"
+    ]
+  },
+  {
+    "service": "redis-cart",
+    "backend_ips": [
+      "10.1.0.13"
+    ]
+  },
+  {
+    "service": "shippingservice",
+    "backend_ips": [
+      "10.1.0.22"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+digraph KubernetesTopology {
+  rankdir=LR;
+  node [shape=box, style=rounded];
+  "cartservice" -> "redis-cart";
+  "checkoutservice" -> "currencyservice";
+  "checkoutservice" -> "productcatalogservice";
+  "checkoutservice" -> "shippingservice";
+  "checkoutservice" -> "emailservice";
+  "checkoutservice" -> "cartservice";
+  "checkoutservice" -> "paymentservice";
+  "frontend" -> "currencyservice";
+  "frontend" -> "recommendationservice";
+  "frontend" -> "productcatalogservice";
+  "frontend" -> "adservice";
+  "frontend" -> "shippingservice";
+  "frontend" -> "checkoutservice";
+  "frontend" -> "cartservice";
+  "loadgenerator" -> "frontend";
+  "recommendationservice" -> "productcatalogservice";
+}
