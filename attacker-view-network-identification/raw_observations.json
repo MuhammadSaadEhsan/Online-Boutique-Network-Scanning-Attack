@@ -1,0 +1,288 @@
+{
+  "root": [
+    {
+      "latency": 0.119,
+      "status": 200
+    },
+    {
+      "latency": 0.026,
+      "status": 200
+    },
+    {
+      "latency": 0.048,
+      "status": 200
+    },
+    {
+      "latency": 0.06,
+      "status": 200
+    },
+    {
+      "latency": 0.07,
+      "status": 200
+    }
+  ],
+  "GoogleCloudPlatform_microservices-demo": [
+    {
+      "latency": 0.014,
+      "status": 404
+    },
+    {
+      "latency": 0.02,
+      "status": 404
+    },
+    {
+      "latency": 0.025,
+      "status": 404
+    },
+    {
+      "latency": 0.027,
+      "status": 404
+    },
+    {
+      "latency": 0.029,
+      "status": 404
+    }
+  ],
+  "cart": [
+    {
+      "latency": 0.036,
+      "status": 200
+    },
+    {
+      "latency": 0.029,
+      "status": 200
+    },
+    {
+      "latency": 0.024,
+      "status": 200
+    },
+    {
+      "latency": 0.04,
+      "status": 200
+    },
+    {
+      "latency": 0.03,
+      "status": 200
+    }
+  ],
+  "product_0PUK6V6EV0": [
+    {
+      "latency": 0.044,
+      "status": 200
+    },
+    {
+      "latency": 0.018,
+      "status": 200
+    },
+    {
+      "latency": 0.052,
+      "status": 200
+    },
+    {
+      "latency": 0.031,
+      "status": 200
+    },
+    {
+      "latency": 0.04,
+      "status": 200
+    }
+  ],
+  "product_1YMWWN1N4O": [
+    {
+      "latency": 0.035,
+      "status": 200
+    },
+    {
+      "latency": 0.022,
+      "status": 200
+    },
+    {
+      "latency": 0.092,
+      "status": 200
+    },
+    {
+      "latency": 0.021,
+      "status": 200
+    },
+    {
+      "latency": 0.021,
+      "status": 200
+    }
+  ],
+  "product_2ZYFJ3GM2N": [
+    {
+      "latency": 0.044,
+      "status": 200
+    },
+    {
+      "latency": 0.022,
+      "status": 200
+    },
+    {
+      "latency": 0.036,
+      "status": 200
+    },
+    {
+      "latency": 0.016,
+      "status": 200
+    },
+    {
+      "latency": 0.047,
+      "status": 200
+    }
+  ],
+  "product_66VCHSJNUP": [
+    {
+      "latency": 0.02,
+      "status": 200
+    },
+    {
+      "latency": 0.032,
+      "status": 200
+    },
+    {
+      "latency": 0.034,
+      "status": 200
+    },
+    {
+      "latency": 0.145,
+      "status": 200
+    },
+    {
+      "latency": 0.043,
+      "status": 200
+    }
+  ],
+  "product_6E92ZMYYFZ": [
+    {
+      "latency": 0.029,
+      "status": 200
+    },
+    {
+      "latency": 0.039,
+      "status": 200
+    },
+    {
+      "latency": 0.047,
+      "status": 200
+    },
+    {
+      "latency": 0.057,
+      "status": 200
+    },
+    {
+      "latency": 0.033,
+      "status": 200
+    }
+  ],
+  "product_9SIQT8TOJO": [
+    {
+      "latency": 0.037,
+      "status": 200
+    },
+    {
+      "latency": 0.031,
+      "status": 200
+    },
+    {
+      "latency": 0.045,
+      "status": 200
+    },
+    {
+      "latency": 0.068,
+      "status": 200
+    },
+    {
+      "latency": 0.019,
+      "status": 200
+    }
+  ],
+  "product_L9ECAV7KIM": [
+    {
+      "latency": 0.03,
+      "status": 200
+    },
+    {
+      "latency": 0.037,
+      "status": 200
+    },
+    {
+      "latency": 0.048,
+      "status": 200
+    },
+    {
+      "latency": 0.063,
+      "status": 200
+    },
+    {
+      "latency": 0.025,
+      "status": 200
+    }
+  ],
+  "product_LS4PSXUNUM": [
+    {
+      "latency": 0.053,
+      "status": 200
+    },
+    {
+      "latency": 0.045,
+      "status": 200
+    },
+    {
+      "latency": 0.032,
+      "status": 200
+    },
+    {
+      "latency": 0.028,
+      "status": 200
+    },
+    {
+      "latency": 0.032,
+      "status": 200
+    }
+  ],
+  "product_OLJCESPC7Z": [
+    {
+      "latency": 0.018,
+      "status": 200
+    },
+    {
+      "latency": 0.037,
+      "status": 200
+    },
+    {
+      "latency": 0.029,
+      "status": 200
+    },
+    {
+      "latency": 0.048,
+      "status": 200
+    },
+    {
+      "latency": 0.027,
+      "status": 200
+    }
+  ],
+  "setCurrency": [
+    {
+      "latency": 0.011,
+      "status": 405
+    },
+    {
+      "latency": 0.045,
+      "status": 405
+    },
+    {
+      "latency": 0.019,
+      "status": 405
+    },
+    {
+      "latency": 0.028,
+      "status": 405
+    },
+    {
+      "latency": 0.024,
+      "status": 405
+    }
+  ]
+}
